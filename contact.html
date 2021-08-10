@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contact </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="black-border">Contactformulier</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="about.html">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="faq.html">
+                    FAQ
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+            <label for="">Naam</label><br>
+            <input type="text"><br>
+            <label for="">Email</label><br>
+            <input type="text"><br>
+            <label for="">Tel</label><br>
+            <input type="tel"><br>
+            <label for="">Leeftijf</label><br>
+            <input type="text"><br>
+            <label for="">Geslacht</label><br>
+            <input type="radio" id="man" name="geslacht">
+            <label for="man">Man</label><br>
+            <input type="radio" id="vrouw" name="geslacht">
+            <label for="vrouw">Vrouw</label><br>
+            <input type="radio" id="overig" name="geslacht">
+            <label for="overig">Overig</label><br>
+            <label for="">Favoriete keuken:</label><br>
+            <input type="checkbox" id="keuken_frans" name="keuken_frans">
+            <label for="keuken_frans">Frans</label><br>
+            <input type="checkbox" id="keuken_italiaans" name="keuken_italiaans">
+            <label for="keuken_italiaans">Italiaans</label><br>
+            <input type="checkbox" id="keuken_spaans" name="keuken_spaans">
+            <label for="keuken_spaans">Spaans</label><br>
+            <input type="checkbox" id="keuken_arabisch" name="keuken_arabisch">
+            <label for="keuken_arabisch">Arabisch</label><br>
+            <label for="favkleur">Kies uw favoriete kleur:</label>
+            <input type="color" id="favkleur" name="favkleur"><br>
+            <label for="">Biografie</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <label for="file">Upload uw laatste recept:</label><br>
+            <input type="file" id="file" name="file"><br>
+            <label for="url">Url naar uw recepten website:</label><br>
+            <input type="url" id="url" name="url"><br><br>
+            <input type="submit"><br><br>
+            <input type="reset"><br>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <h2 class="black-border">Hier is de footer.</h2>
+    </footer>
+</body>
+
+</html>
